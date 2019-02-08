@@ -7,6 +7,7 @@ if type brew &>/dev/null; then
 fi
 
 export ZSH=$HOME/.oh-my-zsh
+export DOT_DIRECTORY=$HOME/dotfiles
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 # Set name of the theme to load --- if set to "random", it will
