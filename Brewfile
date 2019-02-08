@@ -29,7 +29,6 @@ mas "Trello", id: 1278508951
 mas "Xcode", id: 497799835
 cask "google-chrome"
 cask "pycharm"
-cask "slack"
 cask "skype"
 cask "alfred"
 cask "dropbox"
