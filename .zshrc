@@ -2,12 +2,18 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+fi
+
 export ZSH="/Users/satoshisuzuki/.oh-my-zsh"
 export PATH=$HOME/.nodebrew/current/bin:$PATH
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Set list of themes to pick from when loading at random
@@ -109,7 +115,6 @@ zplug "b4b4r07/enhancd", use:init.sh
 
 zplug load --verbose
 ENHANCD_HOOK_AFTER_CD=ls
-
 
 # added by Anaconda3 5.1.0 installer
 export PATH="/anaconda3/bin:$PATH"
