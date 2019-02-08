@@ -6,7 +6,7 @@ if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
 fi
 
-export ZSH="/Users/satoshisuzuki/.oh-my-zsh"
+export ZSH=$HOME/.oh-my-zsh
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 # Set name of the theme to load --- if set to "random", it will
