@@ -10,7 +10,7 @@ else
     [[ ${f} = ".gitignore" ]] && continue
     ln -snfv ${DOT_DIRECTORY}/${f} ${HOME}/${f}
   done
-  echo $(tput setaf 2)All files linked successfully!. ✔︎$(tput sgr0)
+  echo $(tput setaf 2)All files linked successfully! ✔︎$(tput sgr0)
 fi
 
 exit 0
