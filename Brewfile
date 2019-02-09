@@ -17,6 +17,9 @@ mas "LINE", id: 539883307
 mas "Keynote", id: 409183694
 mas "Duplicate File Finder", id: 1032755628
 mas "Alfred", id: 405843582
+cask "visual-studio-code"
+cask "pycharm"
+cask "omnidisksweeper"
 cask "native-access"
 cask "iterm2"
 cask "handbrake"
@@ -25,6 +28,7 @@ cask "google-chrome"
 cask "evernote"
 cask "dropbox"
 cask "docker"
+cask "dash"
 cask "cycling74-max"
 cask "bettertouchtool"
 cask "alfred"
