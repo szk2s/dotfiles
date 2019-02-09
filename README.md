@@ -50,7 +50,7 @@ zplug install
 
 Set up **iTerm** 
 1. Download [Meslo LG M Regular for Powerline.ttf](https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf)
-1. Change your font to **Meslo** in iTerm > Preferences > Profiles > Text 
+1. Change your font to **Meslo (14pt)** in iTerm > Preferences > Profiles > Text 
 1. Change your color preset to **Tango Dark** in iTerm > Preference > Profiles > Colors > Color Presets
 
 ### Update Brewfile
