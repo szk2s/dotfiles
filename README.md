@@ -17,6 +17,24 @@ Brew bundle install
 ```
 brew bundle --file=${DOT_DIRECTORY}/Brewfile
 ```
+Build **zsh** environment 
+```sh
+# Change your default shell
+chsh -s zsh
+# Install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# Install zplug
+curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
+
+# Install plugins
+zplug install
+```
+
+Set up **iTerm** 
+1. Download [Meslo LG M Regular for Powerline.ttf](https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf)
+1. Change your font to **Meslo** in iTerm > Preferences > Profiles > Text 
+1. Change your color preset to **Tango Dark** in iTerm > Preference > Profiles > Colors > Color Presets
 
 ### Update Brewfile
 ```sh
