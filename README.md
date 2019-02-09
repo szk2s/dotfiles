@@ -23,6 +23,11 @@ Brew bundle install
 ```
 brew bundle --file=${DOT_DIRECTORY}/Brewfile
 ```
+
+CAUTION: To complete the installation of Cask adobe-creative-cloud, you must also
+run the installer in `/usr/local/Caskroom/adobe-creative-cloud/latest`
+
+
 Build **zsh** environment 
 ```sh
 # Change your default shell
@@ -41,8 +46,10 @@ Make symlink again (oh-my-zsh overwrites `.zshrc` in the installation process)
 ```
 export DOT_DIRECTORY=${HOME}/dotfiles
 zsh ${DOT_DIRECTORY}/symlink.sh
-```
-**Reload your iterm window**
+```  
+***Now, Please reload your iterm window***  
+
+Then,
 ```
 # Install plugins
 zplug install
