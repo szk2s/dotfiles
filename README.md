@@ -2,7 +2,13 @@
 My private configuration 
 
 ## Commands
-### Set up new machine
+### Set up a new machine
+
+Install [Homebrew](https://brew.sh)
+```sh
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
 Clone this repository
 ```sh
 cd ~
