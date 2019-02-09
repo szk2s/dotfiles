@@ -36,7 +36,14 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
 
 # Install zplug
 curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
-
+```
+Make symlink again (oh-my-zsh overwrites `.zshrc` in the installation process)
+```
+export DOT_DIRECTORY=${HOME}/dotfiles
+zsh ${DOT_DIRECTORY}/symlink.sh
+```
+**Reload your iterm window**
+```
 # Install plugins
 zplug install
 ```
