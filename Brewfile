@@ -18,11 +18,7 @@ mas "Trello", id: 1278508951
 mas "The Unarchiver", id: 425424353
 mas "Slack", id: 803453959
 mas "Pine Player", id: 1112075769
-mas "Pages", id: 409201541
-mas "Numbers", id: 409203825
-mas "Metronome X", id: 1222424189
 mas "Magnet", id: 441258766
-mas "Leawo Blu-ray Player", id: 961975824
 mas "LadioCast", id: 411213048
 mas "LINE", id: 539883307
 mas "Keynote", id: 409183694
