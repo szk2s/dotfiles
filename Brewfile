@@ -14,7 +14,6 @@ brew "graphviz"
 brew "git"
 brew "gibo"
 brew "fzy"
-mas "Xcode", id: 497799835
 mas "Trello", id: 1278508951
 mas "The Unarchiver", id: 425424353
 mas "Slack", id: 803453959
