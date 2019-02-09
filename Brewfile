@@ -30,6 +30,7 @@ cask "cycling74-max"
 cask "bettertouchtool"
 cask "adobe-creative-cloud"
 cask "ableton-live-suite"
+cask "spotify"
 mas "Trello", id: 1278508951
 mas "The Unarchiver", id: 425424353
 mas "Slack", id: 803453959
