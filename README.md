@@ -61,7 +61,7 @@ Set up **iTerm**
 1. Change your color preset to **Tango Dark** in iTerm > Preference > Profiles > Colors > Color Presets
 
 
-PyCharm setting file is [here](https://drive.google.com/file/d/1-1uz_ZztlRlNrxFcfLavnazPWfNDZnOg/view?usp=sharing)  
+PyCharm setting file is [here](https://drive.google.com/drive/folders/1-3hWI5r6sizRvmB3BePEQJfc9EyuOhZW?usp=sharing)  
 
 ### Update Brewfile
 ```sh
