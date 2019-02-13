@@ -60,6 +60,9 @@ Set up **iTerm**
 1. Change your font to **Meslo (14pt)** in iTerm > Preferences > Profiles > Text 
 1. Change your color preset to **Tango Dark** in iTerm > Preference > Profiles > Colors > Color Presets
 
+
+PyCharm setting file is [here](https://drive.google.com/file/d/1-1uz_ZztlRlNrxFcfLavnazPWfNDZnOg/view?usp=sharing)  
+
 ### Update Brewfile
 ```sh
 cd ~
