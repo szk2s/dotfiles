@@ -4,6 +4,8 @@ My private configuration
 ## Commands
 ### Set up a new machine
 
+***Make sure you have deactivated your `iLok` licences in your older machine***
+
 Install [Homebrew](https://brew.sh)
 ```sh
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
