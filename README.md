@@ -1,10 +1,14 @@
 # dotfiles
 My private configuration 
 
+## Before installation
+### Make sure your licenses are deactivated
+- iLok licenses
+- Siblius
+- Microsoft Office
+
 ## Commands
 ### Set up a new machine
-
-***Make sure you have deactivated your `iLok` licences in your older machine***
 
 Install [Homebrew](https://brew.sh)
 ```sh
@@ -68,6 +72,7 @@ PyCharm setting file is [here](https://drive.google.com/drive/folders/1-3hWI5r6s
 ### Update Brewfile
 ```sh
 cd ~
+rm Brewfile
 brew bundle dump
 zsh ${DOT_DIRECTORY}/merge_brewfile.sh
 ```

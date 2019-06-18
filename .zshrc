@@ -11,6 +11,10 @@ export DOT_DIRECTORY=$HOME/dotfiles
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 export PATH=$HOME/usr/local/bin/charm:$PATH
 
+gitall() { 
+  find . -type d -depth 1 -exec git --git-dir={}/.git --work-tree="$PWD"/{} "$@" \; 
+}
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -76,6 +80,7 @@ plugins=(
   npm
   yarn
   docker
+  docker-compose
   web-search
 )
 
