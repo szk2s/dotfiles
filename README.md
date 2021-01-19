@@ -1,6 +1,32 @@
 # dotfiles
 My private configuration 
 
+# Overview
+- brew install fish
+- /etc/shellsにfishのpathを追加
+- chsh -s fish
+- fisherのインストール
+- fisher add
+```
+b4b4r07/enhancd
+fishpkg/fish-prompt-metro
+jethrokuan/fzf
+```
+- config.fishにalias貼る
+```
+alias g='git'
+alias gco='git checkout'
+alias gp='git push'
+alias gl='git pull'
+alias y='yarn'
+alias yw='yarn workspace'
+alias v='vim'
+alias w='webstorm'
+alias c='code'
+alias ofd='open .'
+alias config='vim ~/.config/fish/config.fish'
+```
+
 ## Before installation
 ### Make sure your licenses are deactivated
 - iLok licenses
