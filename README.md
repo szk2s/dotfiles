@@ -2,17 +2,19 @@
 My private configuration 
 
 # Overview
-- brew install fish
-- /etc/shellsにfishのpathを追加
-- chsh -s fish
+- `brew install fish`
+- `sudo vi /etc/shells` (`/opt/homebrew/bin/fish` を追加)
+- config.fishに
+- `chsh -s /opt/homebrew/bin/fish`
 - fisherのインストール
-- fisher add
+- `fisher install <plugin name>`
 ```
 b4b4r07/enhancd
 fishpkg/fish-prompt-metro
 jethrokuan/fzf
 ```
 - config.fishにalias貼る
+- homebrewのPathも通さないといけないことがある
 ```
 alias g='git'
 alias gco='git checkout'
@@ -24,7 +26,9 @@ alias v='vim'
 alias w='webstorm'
 alias c='code'
 alias ofd='open .'
-alias config='vim ~/.config/fish/config.fish'
+alias fishconfig='vim ~/.config/fish/config.fish'
+set PATH $HOME/.nodebrew/current/bin $PATH
+set PATH $PATH /usr/local/opt/llvm/bin/
 ```
 
 ## Before installation
