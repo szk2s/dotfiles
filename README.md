@@ -3,9 +3,8 @@ My private configuration
 
 # Overview
 - `brew install fish`
-- `sudo vi /etc/shells` (`/opt/homebrew/bin/fish` を追加)
-- config.fishに
-- `chsh -s /opt/homebrew/bin/fish`
+- `sudo vi /etc/shells` (`/usr/local/bin/fish` を追加)
+- `chsh -s /usr/local/bin/fish`
 - fisherのインストール
 - `fisher install <plugin name>`
 ```
